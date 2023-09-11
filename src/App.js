@@ -17,7 +17,7 @@ const App = () => {
     else {
       audioElem.current.pause();
     }
-  }, [isplaying])
+  }, [isplaying, currentSong])
 
   const onPlaying = () => {
     const duration = audioElem.current.duration;
